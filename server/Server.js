@@ -4,10 +4,7 @@ var express = require('express');
 var fs = require('fs')
 var {RtcTokenBuilder,  RtcRole} = require('agora-access-token')
 
-/*var options = {
-  key: fs.readFileSync('key.pem'),
-  cert: fs.readFileSync('cert.pem')
-};*/
+
 
 var PORT = 8000;
 
