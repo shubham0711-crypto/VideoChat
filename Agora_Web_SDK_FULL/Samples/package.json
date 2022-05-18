@@ -1,0 +1,14 @@
+{
+    "name": "agora_web_quickstart",
+    "version": "1.0.0",
+    "description": "",
+    "main": "basicLiveStreaming.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "agora-rtc-sdk-ng": "latest"
+    },
+    "author": "",
+    "license": "ISC"
+}

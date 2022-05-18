@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Streams</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+    <form id="join-btn">
+        <input type="text" id="name" name="name" required>
+        <input type="submit">
+    </form>
+
+    <div id="stream-wrapper">
+        <div id="video-streams"></div>
+
+        <div id="stream-controls">
+            <button id="leave-btn">Leave Stream</button>
+            <button id="mic-btn">Mic On</button>
+            <button id="camera-btn">Camera on</button>
+            <button id="screen-share">Share Screen</button>
+            <div id="message-container"></div>
+              <form id="send-container">
+                <input type="text" id="message-input">
+                <button type="submit" id="send-button">Send</button>
+              </form>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://download.agora.io/sdk/web/AgoraRTC_N-4.1.0.js"></script>
+<script src="./Agora_Web_SDK_FULL/AgoraRTC_N-4.11.0.js"></script>
+<script src='main.js'></script>
+</html>
